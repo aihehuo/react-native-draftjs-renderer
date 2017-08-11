@@ -590,7 +590,7 @@
       "type": "IMAGE",
       "mutability": "MUTABLE",
       "data": {
-        "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502447541606&di=aba7190f7b1f86ff17d35a58e8642805&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D32c015eaf6039245b5b8e94ceffdceb7%2Fd788d43f8794a4c28c10040c04f41bd5ad6e39e2.jpg",
+        "src": "http://staging1.oss-cn-shenzhen.aliyuncs.com/-1096579066.gif1502346852109",
         "height": "auto",
         "width": "auto"
       }
