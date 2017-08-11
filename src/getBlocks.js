@@ -15,6 +15,7 @@ import BlockQuote from './components/BlockQuote';
 import DraftJsText from './components/DraftJsText';
 import UnorderedListItem from './components/UnorderedListItem';
 import OrderedListItem from './components/OrderedListItem';
+import AtomicView from './components/AtomicView';
 import generateKey from './utils/generateKey';
 
 const getBlocks = (
@@ -70,10 +71,39 @@ const getBlocks = (
         type: item.type,
         inlineStyles: item.inlineStyleRanges,
         entityRanges: item.entityRanges,
+        data: item.data
       };
 
       switch (item.type) {
-        case 'unstyled':
+        case 'unstyled': {
+          if (itemData.text.length === 0) {
+            return null
+          } else {
+            const viewBefore = checkCounter(counters);
+            let styleFromData = {}
+            const transforms = {
+              left: 'flex-start',
+              right: 'flex-end',
+              center: 'center'
+            }
+            if (itemData.data["text-align"]) {
+              styleFromData = {
+                alignItems: transforms[itemData.data["text-align"]]
+              }
+            }
+            return (
+              <View key={generateKey()} style={styleFromData}>
+                {viewBefore}
+                <DraftJsText
+                  {...itemData}
+                  entityMap={bodyData.entityMap}
+                  customStyles={customStyles}
+                  navigate={navigate}
+                />
+              </View>
+            )
+          }
+        }
         case 'paragraph':
         case 'header-one':
         case 'header-two':
@@ -97,10 +127,20 @@ const getBlocks = (
         }
 
         case 'atomic': {
-          const atomicView = [];
-          atomicView.push(checkCounter(counters));
-          atomicView.push(atomicHandler(item));
-          return atomicView;
+          // const atomicView = [];
+          // atomicView.push(checkCounter(counters));
+          // atomicView.push(atomicHandler(item));
+          // return atomicView;
+          return (
+            <View key={generateKey()} style={{justifyContent: 'center', alignItems: 'center'}}>
+              <AtomicView
+                {...itemData}
+                entityMap={bodyData.entityMap}
+                customStyles={customStyles}
+                navigate={navigate}
+              />
+            </View>
+          )
         }
 
         case 'blockquote': {

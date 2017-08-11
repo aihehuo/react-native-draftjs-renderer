@@ -85,18 +85,6 @@
       "data": {}
     },
     {
-      "key": "3tvln",
-      "text": "",
-      "type": "atomic",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [],
-      "data": {
-        "type": "image",
-        "url": "https://lorempixel.com/400/200/"
-      }
-    },
-    {
       "entityRanges": [],
       "depth": 0,
       "data": {},
@@ -234,7 +222,361 @@
       "text": "'code-block': {\n  backgroundColor: '#cecece',\n  fontFamily: 'Courier New',\n  padding: 16,\n},",
       "type": "code-block",
       "key": "5aaa7ec3"
-     }
+    },
+    {
+      "key":"1opin",
+      "text":"普通文字 加粗文字 斜体文字 下划线文字 中横线文字",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":
+        [
+          {"offset":5,"length":5,"style":"BOLD"},
+          {"offset":14,"length":1,"style":"BOLD"},
+          {"offset":10,"length":5,"style":"ITALIC"},
+          {"offset":15,"length":6,"style":"UNDERLINE"},
+          {"offset":21,"length":5,"style":"STRIKETHROUGH"}
+        ],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"215u3",
+      "text":"X2上 X2下",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":
+        [
+          {"offset":0,"length":4,"style":"SUPERSCRIPT"},
+          {"offset":4,"length":3,"style":"SUBSCRIPT"}
+        ],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"7jr5h",
+      "text":"正常字号",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":[],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"9cjfh",
+      "text":"H1",
+      "type":"header-one",
+      "depth":0,
+      "inlineStyleRanges":[],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"9plla",
+      "text":"H2",
+      "type":"header-two",
+      "depth":0,
+      "inlineStyleRanges":[],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"efjt9",
+      "text":"H3",
+      "type":"header-three",
+      "depth":0,
+      "inlineStyleRanges":[],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"4mabc",
+      "text":"H4",
+      "type":"header-four",
+      "depth":0,
+      "inlineStyleRanges":[],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"do8p",
+      "text":"H5",
+      "type":"header-five",
+      "depth":0,
+      "inlineStyleRanges":[],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"dbeiv",
+      "text":"14号字体",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":
+        [
+          {"offset":0,"length":5,"style":"fontsize-14"}
+        ],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"b62m4",
+      "text":"12号字体",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":
+        [
+          {"offset":0,"length":5,"style":"fontsize-12"}
+        ],
+      "entityRanges":[],
+      "data":{}
+    },
+    {
+      "key":"7o59h",
+      "text":"11号字体",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":[{"offset":0,"length":5,"style":"fontsize-11"}],
+      "entityRanges":[],
+      "data":{}
+    },{
+      "key":"dks5r",
+      "text":"10号字体",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":[{"offset":0,"length":5,"style":"fontsize-10"}],
+      "entityRanges":[],
+      "data":{}
+    },{
+      "key":"a6cpl",
+      "text":"9号字体",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":[{"offset":0,"length":4,"style":"fontsize-9"}],
+      "entityRanges":[],
+      "data":{}
+    },{
+      "key":"13n38",
+      "text":"8号字体",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":[{"offset":0,"length":4,"style":"fontsize-8"}],
+      "entityRanges":[],
+      "data":{}
+    },{
+      "key":"9nk13",
+      "text":"字体Arial",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":
+        [
+          {"offset":0,"length":7,"style":"fontsize-12"},
+          {"offset":0,"length":7,"style":"fontfamily-Arial"}
+        ],
+      "entityRanges":[],
+      "data":{}
+    },{
+      "key":"8g09o",
+      "text":"字体Georgia",
+      "type":"unstyled",
+      "depth":0,
+      "inlineStyleRanges":
+        [
+          {"offset":0,"length":9,"style":"fontsize-12"},
+          {"offset":0,"length":9,"style":"fontfamily-Georgia"}
+        ],
+      "entityRanges":[],
+      "data":{}
+     },{
+       "key":"cif3c",
+       "text":"字体Impact",
+       "type":"unstyled",
+       "depth":0,
+       "inlineStyleRanges":
+         [
+           {"offset":0,"length":8,"style":"fontsize-12"},
+           {"offset":0,"length":8,"style":"fontfamily-Impact"}
+         ],
+        "entityRanges":[],
+        "data":{}
+      },{
+        "key":"5mhp",
+        "text":"字体Tahoma",
+        "type":"unstyled",
+        "depth":0,
+        "inlineStyleRanges":
+          [
+            {"offset":0,"length":8,"style":"fontsize-12"},
+            {"offset":0,"length":8,"style":"fontfamily-Tahoma"}
+          ],
+        "entityRanges":[],
+        "data":{}
+       },{
+         "key":"7tmgf",
+         "text":"字体Times New Roman",
+         "type":"unstyled",
+         "depth":0,
+         "inlineStyleRanges":
+           [
+             {"offset":0,"length":17,"style":"fontsize-14"},
+             {"offset":0,"length":17,"style":"fontfamily-Times New Roman"}
+           ],
+          "entityRanges":[],
+          "data":{}
+        },{
+          "key":"7hpp2",
+          "text":"无序列表1 Hello world",
+          "type":"unordered-list-item",
+          "depth":0,
+          "inlineStyleRanges":
+            [
+              {"offset":0,"length":5,"style":"fontfamily-Georgia"},
+              {"offset":0,"length":5,"style":"fontsize-14"}
+            ],
+          "entityRanges":[],
+          "data":{}
+        },{
+          "key":"9k6nt",
+          "text":"无序列表2 Times New Roman",
+          "type":"unordered-list-item",
+          "depth":0,
+          "inlineStyleRanges":
+            [
+              {"offset":0,"length":5,"style":"fontsize-10"},
+              {"offset":0,"length":5,"style":"fontfamily-Times New Roman"}
+            ],
+          "entityRanges":[],
+          "data":{}
+        },{
+          "key":"6lr5t",
+          "text":"有序列表1",
+          "type":"ordered-list-item",
+          "depth":0,
+          "inlineStyleRanges":
+            [
+              {"offset":0,"length":5,"style":"fontsize-12"},
+              {"offset":0,"length":5,"style":"fontfamily-Times New Roman"}
+            ],
+          "entityRanges":[],
+          "data":{}
+        },{
+          "key":"3u6o2",
+          "text":"有序列表2",
+          "type":"ordered-list-item",
+          "depth":0,
+          "inlineStyleRanges":
+            [
+              {"offset":0,"length":5,"style":"fontsize-12"},
+              {"offset":0,"length":5,"style":"fontfamily-Times New Roman"}
+            ],
+            "entityRanges":[],
+            "data":{}
+          },{
+            "key":"fjb58",
+            "text":"靠左",
+            "type":"unstyled",
+            "depth":0,
+            "inlineStyleRanges":
+              [
+                {"offset":0,"length":2,"style":"fontsize-12"},
+                {"offset":0,"length":2,"style":"fontfamily-Times New Roman"}
+              ],
+            "entityRanges":[],
+            "data":{"text-align":"left"}
+          },{
+            "key":"5v0r5",
+            "text":"居中",
+            "type":"unstyled",
+            "depth":0,
+            "inlineStyleRanges":
+              [
+                {"offset":0,"length":2,"style":"fontsize-12"},
+                {"offset":0,"length":2,"style":"fontfamily-Times New Roman"}
+              ],
+            "entityRanges":[],
+            "data":{"text-align":"center"}
+          },{
+            "key":"bc29c",
+            "text":"靠右",
+            "type":"unstyled",
+            "depth":0,
+            "inlineStyleRanges":
+              [
+                {"offset":0,"length":2,"style":"fontsize-12"},
+                {"offset":0,"length":2,"style":"fontfamily-Times New Roman"}
+              ],
+            "entityRanges":[],
+            "data":{"text-align":"right"}
+          },{
+            "key":"cq8im",
+            "text":"文字颜色",
+            "type":"unstyled",
+            "depth":0,
+            "inlineStyleRanges":
+              [
+                {"offset":0,"length":4,"style":"fontsize-12"},
+                {"offset":0,"length":4,"style":"fontfamily-Times New Roman"},
+                {"offset":0,"length":4,"style":"color-rgb(97,189,109)"}
+              ],
+            "entityRanges":[],
+            "data":{}
+           },{
+             "key":"k8c8",
+             "text":"背景颜色",
+             "type":"unstyled",
+             "depth":0,
+             "inlineStyleRanges":
+               [
+                 {"offset":0,"length":4,"style":"fontsize-12"},
+                 {"offset":0,"length":4,"style":"fontfamily-Times New Roman"},
+                 {"offset":0,"length":4,"style":"bgcolor-rgb(61,142,185)"},
+                 {"offset":0,"length":4,"style":"color-rgb(255,255,255)"}
+               ],
+              "entityRanges":[],
+              "data":{}
+            },{
+              "key":"e0c5j",
+              "text":"超链接 ",
+              "type":"unstyled",
+              "depth":0,
+              "inlineStyleRanges":[],
+              "entityRanges":[
+                {"offset":0,"length":3,"key":0}
+              ],
+              "data":{}
+            },{
+              "key":"btqs3",
+              "text":"😁表情",
+              "type":"unstyled",
+              "depth":0,
+              "inlineStyleRanges":[],
+              "entityRanges":[],
+              "data":{}
+            },{
+              "key":"beqq8",
+              "text":"",
+              "type":"unstyled",
+              "depth":0,
+              "inlineStyleRanges":[],
+              "entityRanges":[],
+              "data":{}
+            },{
+              "key":"99fdp",
+              "text":" ",
+              "type":"atomic",
+              "depth":0,
+              "inlineStyleRanges":[],
+              "entityRanges":[{"offset":0,"length":1,"key":1}],
+              "data":{}
+            },
+            {
+              "key":"90fdp",
+              "text":" ",
+              "type":"atomic",
+              "depth":0,
+              "inlineStyleRanges":[],
+              "entityRanges":[{"offset":0,"length":1,"key":2}],
+              "data":{}
+            }
   ],
   "entityMap": {
     "0": {
@@ -242,6 +584,24 @@
       "mutability": "MUTABLE",
       "data": {
         "url": "https://github.com/globocom/react-native-draftjs-render"
+      }
+    },
+    "1": {
+      "type": "IMAGE",
+      "mutability": "MUTABLE",
+      "data": {
+        "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502447541606&di=aba7190f7b1f86ff17d35a58e8642805&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D32c015eaf6039245b5b8e94ceffdceb7%2Fd788d43f8794a4c28c10040c04f41bd5ad6e39e2.jpg",
+        "height": "auto",
+        "width": "auto"
+      }
+    },
+    "2": {
+      "type": "EMBEDDED_LINK",
+      "mutability": "MUTABLE",
+      "data": {
+        "src": "https://youtu.be/YgCR-vaXsTk",
+        "height": "auto",
+        "width": "auto"
       }
     }
   }

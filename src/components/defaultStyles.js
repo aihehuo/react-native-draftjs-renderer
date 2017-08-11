@@ -13,48 +13,52 @@ import {
 
 const defaultStyles = StyleSheet.create({
   paragraph: {
-    fontSize: 14,
+    lineHeight: 18,
+    fontSize: 16,
     fontWeight: 'normal',
   },
   unstyled: {
-    fontSize: 14,
+    fontSize: 16,
+    paddingTop: 1,
+    paddingBottom: 1,
     fontWeight: 'normal',
+    fontFamily: 'PingFangSC-Regular'
   },
   'header-one': {
     fontSize: 32,
     fontWeight: 'bold',
-    marginTop: 22,
-    marginBottom: 22,
+    marginTop: 5,
+    marginBottom: 5,
   },
   'header-two': {
     fontSize: 24,
     fontWeight: 'bold',
-    marginTop: 20,
-    marginBottom: 20,
+    marginTop: 5,
+    marginBottom: 5,
   },
   'header-three': {
     fontSize: 19,
     fontWeight: 'bold',
-    marginTop: 19,
-    marginBottom: 19,
+    marginTop: 5,
+    marginBottom: 5,
   },
   'header-four': {
     fontSize: 15,
     fontWeight: 'bold',
-    marginTop: 21,
-    marginBottom: 21,
+    marginTop: 5,
+    marginBottom: 5,
   },
   'header-five': {
     fontSize: 13,
     fontWeight: 'bold',
-    marginTop: 22,
-    marginBottom: 22,
+    marginTop: 5,
+    marginBottom: 5,
   },
   'header-six': {
     fontSize: 11,
     fontWeight: 'bold',
-    marginTop: 25,
-    marginBottom: 25,
+    marginTop: 5,
+    marginBottom: 5,
   },
   'unordered-list-item': {
     fontSize: 14,
@@ -75,6 +79,10 @@ const defaultStyles = StyleSheet.create({
     fontStyle: 'italic',
     marginLeft: 16,
   },
+  image: {
+    height: 200,
+    width: '100%'
+  }
 });
 
 export default defaultStyles;

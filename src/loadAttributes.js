@@ -40,6 +40,8 @@ const loadAttributes = (
   if (attributes.length) {
     const attrs = flatAttributesList(attributes);
 
+    console.log(attrs)
+
     if (attrs[0].offset > 0) {
       elementList.push(<Text key={generateKey()}>{text.substring(0, attrs[0].offset)}</Text>);
     }
