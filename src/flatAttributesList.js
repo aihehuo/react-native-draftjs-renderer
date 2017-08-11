@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2017, Globo.com (https://github.com/globocom)
- *
- * License: MIT
- */
-
 // @flow
 
 const sortInteger = (a: number, b: number): number => a - b;

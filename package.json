@@ -1,7 +1,7 @@
 {
-  "name": "react-native-draftjs-render",
-  "description": "React Native render for draft.js model",
-  "version": "1.0.3",
+  "name": "react-native-draftjs-renderer",
+  "description": "React Native render for draft.js and react-draft-wysiwyg",
+  "version": "1.0.0",
   "scripts": {
     "test": "npm run linter && npm run flow && npm run coverage",
     "test-coveralls": "npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
@@ -14,9 +14,12 @@
   "main": "index.js",
   "keywords": [
     "react-native",
-    "draft-js"
+    "draft-js",
+    "react-draft-wysiwyg",
+    "html",
+    "draftjs"
   ],
-  "author": "globo.com",
+  "author": "aihehuo.com",
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.4.2",
@@ -63,10 +66,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/globocom/react-native-draftjs-render.git"
+    "url": "git+https://github.com/aihehuo/react-native-draftjs-renderer.git"
   },
   "bugs": {
-    "url": "https://github.com/globocom/react-native-draftjs-render/issues"
+    "url": "https://github.com/aihehuo/react-native-draftjs-renderer/issues"
   },
-  "homepage": "https://github.com/globocom/react-native-draftjs-render#readme"
+  "homepage": "https://github.com/aihehuo/react-native-draftjs-renderer#readme"
 }
