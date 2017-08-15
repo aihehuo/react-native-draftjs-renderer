@@ -37,3 +37,4 @@ UPDATE:
 * Fix the image auto height crop problem.
 * Fix fontSize can not be over 14 bug.
 * Increase the Text padding size to 2.
+* Add dynamic Image height support.
