@@ -16,7 +16,7 @@ import {
 
 import RNDraftJS from '../react-native-draftjs-render';
 
-import data from './sample.js';
+import data from './sample2.js';
 // import data from './resourceMock.json'
 
 const styles = StyleSheet.create({
