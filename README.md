@@ -33,6 +33,8 @@ AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
 
 UPDATE:
+## 1.1.0
+* Remove dynamic Image height support, which will cause image blink.
 ## 1.0.1
 * Fix the image auto height crop problem.
 * Fix fontSize can not be over 14 bug.
