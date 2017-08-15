@@ -36,25 +36,24 @@ const styles = StyleSheet.flatten({
   subscript: {
     // WIP
   },
-  "fontsize-14": {
-    fontSize: 20,
-    fontFamily: 'Georgia'
-  },
-  "fontsize-12": {
-    fontSize: 18
-  },
-  "fontsize-11": {
-    fontSize: 16
-  },
-  "fontsize-10": {
-    fontSize: 14
-  },
-  "fontsize-9": {
-    fontSize: 12
-  },
-  "fontsize-8": {
-    fontSize: 10
-  },
+  // "fontsize-14": {
+  //   fontSize: 20
+  // },
+  // "fontsize-12": {
+  //   fontSize: 18
+  // },
+  // "fontsize-11": {
+  //   fontSize: 16
+  // },
+  // "fontsize-10": {
+  //   fontSize: 14
+  // },
+  // "fontsize-9": {
+  //   fontSize: 12
+  // },
+  // "fontsize-8": {
+  //   fontSize: 10
+  // },
   "fontfamily-georgia": {
     fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'sans-serif'
   },
@@ -73,19 +72,19 @@ const styles = StyleSheet.flatten({
 });
 
 const getStyles = (itemType: any, customStyles: Object): any => {
-  console.log(itemType)
-  console.log(itemType.includes('bgcolor'))
-  if (itemType.includes('bgcolor')) {
-    return [StyleSheet.flatten({
-      backgroundColor: itemType.split('-')[1]
-    }), customStyles[itemType]]
-  }
-  if (typeof itemType === 'string') return [styles[itemType], customStyles[itemType]];
+  console.log("ITEM TYPE", itemType)
+  // if (itemType.includes('bgcolor')) {
+  //   return [StyleSheet.flatten({
+  //     backgroundColor: itemType.split('-')[1]
+  //   }), customStyles[itemType]]
+  // }
+  // if (typeof itemType === 'string') return [styles[itemType], customStyles[itemType]];
 
   let defaultTextStyles = {};
   let customTextStyles = {};
   let bgcolorStyle = {}
   let colorStyle = {}
+  let fontsizeStyle = {}
   itemType.forEach((i: string) => {
     if (i.includes('bgcolor')) {
       bgcolorStyle = StyleSheet.flatten({
@@ -97,10 +96,17 @@ const getStyles = (itemType: any, customStyles: Object): any => {
         color: i.split('-')[1]
       })
     }
+    if (i.split('-')[0] === 'fontsize') {
+      let fontSize = Number(i.split('-')[1])
+      fontsizeStyle = StyleSheet.flatten({
+        lineHeight: fontSize + 10,
+        fontSize: fontSize
+      })
+    }
     Object.assign(defaultTextStyles, styles[i]);
     Object.assign(customTextStyles, customStyles[i]);
   });
-  const newStyles = [defaultTextStyles, customTextStyles, colorStyle, bgcolorStyle];
+  const newStyles = [defaultTextStyles, customTextStyles, colorStyle, bgcolorStyle, fontsizeStyle];
   return newStyles;
 };
 

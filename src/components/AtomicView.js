@@ -30,9 +30,14 @@ const AtomicView = (props: AtomicViewPropsType): any => {
   }
   switch(entity.type) {
     case 'IMAGE': {
-      const inputImageStyle = {
-        height: entity.data.height === 'auto' ? 300 : Number(entity.data.height),
-        width: entity.data.width === 'auto' ? '100%' : Number(entity.data.width)
+      let inputImageStyle = {}
+      if (entity.data.height !== 'auto') {
+        inputImageStyle.height = Number(entity.data.height)
+      }
+      if (entity.data.width !== 'auto') {
+        inputImageStyle.width = Number(entity.data.width)
+      } else {
+        inputImageStyle.width = '100%'
       }
       return (
         <Image

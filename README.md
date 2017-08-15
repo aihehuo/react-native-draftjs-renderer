@@ -31,3 +31,9 @@ const MyApp = () => (
 
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
+
+UPDATE:
+## 1.0.1
+* Fix the image auto height crop problem.
+* Fix fontSize can not be over 14 bug.
+* Increase the Text padding size to 2.
