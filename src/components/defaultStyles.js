@@ -12,9 +12,11 @@ const defaultStyles = StyleSheet.create({
     fontWeight: 'normal',
   },
   unstyled: {
+    textAlign: 'justify',
+    lineHeight: 26,
     fontSize: 16,
-    paddingTop: 1,
-    paddingBottom: 1,
+    paddingTop: 10,
+    paddingBottom: 10,
     fontWeight: 'normal',
     fontFamily: 'PingFangSC-Regular'
   },
