@@ -99,7 +99,7 @@ const getStyles = (itemType: any, customStyles: Object): any => {
     if (i.split('-')[0] === 'fontsize') {
       let fontSize = Number(i.split('-')[1])
       fontsizeStyle = StyleSheet.flatten({
-        lineHeight: fontSize + 12,
+        lineHeight: fontSize + 14,
         fontSize: fontSize
       })
     }

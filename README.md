@@ -32,7 +32,12 @@ const MyApp = () => (
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
 
+TODO:
+* [Android] Justify text content support.
+
 UPDATE:
+## 1.1.1
+* Minor style change.
 ## 1.1.0
 * Remove dynamic Image height support, which will cause image blink.
 ## 1.0.1

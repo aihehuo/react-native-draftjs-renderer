@@ -15,10 +15,11 @@ const defaultStyles = StyleSheet.create({
     textAlign: 'justify',
     lineHeight: 26,
     fontSize: 16,
-    paddingTop: 10,
-    paddingBottom: 10,
+    paddingTop: 11,
+    paddingBottom: 11,
     fontWeight: 'normal',
-    fontFamily: 'PingFangSC-Regular'
+    fontFamily: 'PingFangSC-Regular',
+    letterSpacing: 0.5
   },
   'header-one': {
     fontSize: 32,
