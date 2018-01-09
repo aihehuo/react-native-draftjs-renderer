@@ -7,6 +7,8 @@ import {
   Platform
 } from 'react-native';
 
+import PropTypes from 'prop-types';
+
 type TextStyledPropsType = {
  text: string,
  type: any,
@@ -120,8 +122,8 @@ const TextStyled = (props: TextStyledPropsType): any => {
 };
 
 TextStyled.propTypes = {
-  text: React.PropTypes.string,
-  type: React.PropTypes.any.isRequired,
+  text: PropTypes.string,
+  type: PropTypes.any.isRequired,
 };
 
 TextStyled.defaultProps = {

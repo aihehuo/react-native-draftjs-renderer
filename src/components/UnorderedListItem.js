@@ -6,6 +6,8 @@ import {
   StyleSheet,
 } from 'react-native';
 
+import PropTypes from 'prop-types';
+
 import DraftJsText from '../components/DraftJsText';
 
 const styles = StyleSheet.create({
@@ -43,7 +45,7 @@ const UnorderedListItem = (props: Object): any => {
 };
 
 UnorderedListItem.propTypes = {
-  customStyles: React.PropTypes.any,
+  customStyles: PropTypes.any,
 };
 
 UnorderedListItem.defaultProps = {
