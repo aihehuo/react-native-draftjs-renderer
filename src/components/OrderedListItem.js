@@ -7,6 +7,8 @@ import {
   StyleSheet,
 } from 'react-native';
 
+import PropTypes from 'prop-types';
+
 import DraftJsText from '../components/DraftJsText';
 
 const styles = StyleSheet.create({
@@ -48,9 +50,9 @@ const OrderedListItem = (props: Object): any => {
 };
 
 OrderedListItem.propTypes = {
-  counter: React.PropTypes.number,
-  customStyles: React.PropTypes.any,
-  separator: React.PropTypes.string,
+  counter: PropTypes.number,
+  customStyles: PropTypes.any,
+  separator: PropTypes.string,
 };
 
 OrderedListItem.defaultProps = {

@@ -6,6 +6,8 @@ import {
   View
 } from 'react-native';
 
+import PropTypes from 'prop-types';
+
 import defaultStyles from './defaultStyles';
 
 type AtomicViewPropsType = {
@@ -109,9 +111,9 @@ const AtomicView = (props: AtomicViewPropsType): any => {
 // }
 
 AtomicView.propTypes = {
-  text: React.PropTypes.string,
-  customStyles: React.PropTypes.any,
-  inlineStyles: React.PropTypes.array,
+  text: PropTypes.string,
+  customStyles: PropTypes.any,
+  inlineStyles: PropTypes.array,
 };
 
 AtomicView.defaultProps = {

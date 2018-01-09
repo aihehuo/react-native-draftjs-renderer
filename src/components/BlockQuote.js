@@ -6,6 +6,8 @@ import {
   View,
 } from 'react-native';
 
+import PropTypes from 'prop-types';
+
 import DraftJsText from '../components/DraftJsText';
 
 const styles = StyleSheet.create({
@@ -41,9 +43,9 @@ const BlockQuote = (props: Object): any => {
 };
 
 BlockQuote.propTypes = {
-  text: React.PropTypes.string.isRequired,
-  customStyles: React.PropTypes.any,
-  type: React.PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  customStyles: PropTypes.any,
+  type: PropTypes.string.isRequired,
 };
 
 BlockQuote.defaultProps = {
